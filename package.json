@@ -1,0 +1,22 @@
+{
+  "name": "demo-22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acostinpmi/demo-22.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acostinpmi/demo-22/issues"
+  },
+  "homepage": "https://github.com/acostinpmi/demo-22#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

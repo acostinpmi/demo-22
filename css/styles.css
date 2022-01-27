@@ -1,0 +1,174 @@
+@import url(npm:normalize.css);
+@font-face {
+  font-weight: bolder;
+  font-family: "defaultFont";
+  font-style: normal;
+  src: url("resources/fonts/SourceSansPro/SourceSansPro-Black.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: bolder;
+  font-family: "defaultFont";
+  font-style: italic;
+  src: url("resources/fonts/SourceSansPro/SourceSansPro-BlackItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: bolder;
+  font-family: "defaultFont";
+  font-style: normal;
+  src: url("resources/fonts/SourceSansPro/SourceSansPro-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: bolder;
+  font-family: "defaultFont";
+  font-style: italic;
+  src: url("resources/fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: lighter;
+  font-family: "defaultFont";
+  font-style: normal;
+  src: url("resources/fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: lighter;
+  font-family: "defaultFont";
+  font-style: italic;
+  src: url("resources/fonts/SourceSansPro/SourceSansPro-ExtraLightItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: normal;
+  font-family: "defaultFont";
+  font-style: italic;
+  src: url("resources/fonts/SourceSansPro/SourceSansPro-Italic.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: lighter;
+  font-family: "defaultFont";
+  font-style: normal;
+  src: url("resources/fonts/SourceSansPro/SourceSansPro-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: lighter;
+  font-family: "defaultFont";
+  font-style: italic;
+  src: url("resources/fonts/SourceSansPro/SourceSansPro-LightItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: normal;
+  font-family: "defaultFont";
+  font-style: normal;
+  src: url("resources/fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: bold;
+  font-family: "defaultFont";
+  font-style: normal;
+  src: url("resources/fonts/SourceSansPro/SourceSansPro-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: bold;
+  font-family: "defaultFont";
+  font-style: italic;
+  src: url("resources/fonts/SourceSansPro/SourceSansPro-SemiBoldItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: bolder;
+  font-family: "titleFont";
+  font-style: normal;
+  src: url("resources/fonts/SourceSerifPro/SourceSerifPro-Black.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: bolder;
+  font-family: "titleFont";
+  font-style: italic;
+  src: url("resources/fonts/SourceSerifPro/SourceSerifPro-BlackItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: bolder;
+  font-family: "titleFont";
+  font-style: normal;
+  src: url("resources/fonts/SourceSerifPro/SourceSerifPro-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: bolder;
+  font-family: "titleFont";
+  font-style: italic;
+  src: url("resources/fonts/SourceSerifPro/SourceSerifPro-BoldItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: lighter;
+  font-family: "titleFont";
+  font-style: normal;
+  src: url("resources/fonts/SourceSerifPro/SourceSerifPro-ExtraLight.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: lighter;
+  font-family: "titleFont";
+  font-style: italic;
+  src: url("resources/fonts/SourceSerifPro/SourceSerifPro-ExtraLightItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: normal;
+  font-family: "titleFont";
+  font-style: italic;
+  src: url("resources/fonts/SourceSerifPro/SourceSerifPro-Italic.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: lighter;
+  font-family: "titleFont";
+  font-style: normal;
+  src: url("resources/fonts/SourceSerifPro/SourceSerifPro-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: lighter;
+  font-family: "titleFont";
+  font-style: italic;
+  src: url("resources/fonts/SourceSerifPro/SourceSerifPro-LightItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: normal;
+  font-family: "titleFont";
+  font-style: normal;
+  src: url("resources/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: bold;
+  font-family: "titleFont";
+  font-style: normal;
+  src: url("resources/fonts/SourceSerifPro/SourceSerifPro-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-weight: bold;
+  font-family: "titleFont";
+  font-style: italic;
+  src: url("resources/fonts/SourceSerifPro/SourceSerifPro-SemiBoldItalic.ttf") format("truetype"); }
+
+html, body {
+  margin: 0;
+  color: #000000;
+  font-size: 16px;
+  font-family: defaultFont, serif;
+  line-height: 20px;
+  background: red; }
+
+a {
+  color: #2020e0; }
+
+p {
+  margin-block: 0.75rem;
+  line-height: 28px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block: 0; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit; }
